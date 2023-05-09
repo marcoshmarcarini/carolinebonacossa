@@ -4,8 +4,6 @@ import Parte1 from "@/components/Parte-1"
 import Parte2 from "@/components/Parte-2"
 import Parte3 from "@/components/Parte-3"
 import Sobre from "@/components/Sobre"
-import Videos from "@/components/Videos"
-import Image from "next/image"
 
 export default function Home(){
   return(
@@ -26,9 +24,7 @@ export default function Home(){
        <div className="mb-5">
           <Sobre />
        </div>
-       {/* <div className="mb-5">
-          <Videos />
-       </div> */}
+       
     </div>
   )
 }

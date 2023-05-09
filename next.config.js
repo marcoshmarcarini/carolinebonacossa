@@ -4,13 +4,6 @@ const nextConfig = {
   images: {
     domains: ['www.carolinebonacossa.com.br'],
   },
-  dependencies: {
-    'react-native-vector-icons': {
-      platforms: {
-        ios: null,
-      },
-    },
-  },
   
 }
 

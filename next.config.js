@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     domains: ['www.carolinebonacossa.com.br'],
   },
-  
 }
 
 module.exports = nextConfig

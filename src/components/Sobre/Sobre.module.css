@@ -50,3 +50,30 @@
     }
     
 }
+
+@media (max-width:700px) {
+    .cardTextos{
+        background-color: #F4F6FB;
+        max-width: 800px;
+        border: 1px solid #CBDFFF;
+        box-shadow: 1px 1px 10px #CBDFFF;
+        border-radius: 15px;
+        padding: 20px 10px 20px 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        text-align: justify;
+        margin: auto;
+        animation: aparecer 2s ease;
+    }
+
+    .sobreTextos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+}

@@ -1,0 +1,12 @@
+@media (max-width:700px) {
+    .linksCabecalho{
+        font-size: 0.6rem;
+    }
+    .flex.h-full.items-center.hover\:bg-black.hover\:bg-opacity-50.hover\:ease-in.duration-300 {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center! important;
+        line-height: 10px;
+    }
+    
+}

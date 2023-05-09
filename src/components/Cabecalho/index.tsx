@@ -1,6 +1,7 @@
 import Image from "next/image";
-import WhatsApp from "../WhatsApp";
 import Link from "next/link";
+import styles from "./Cabecalho.module.css"
+
 export default function Cabecalho(){
     return(
         <div>
@@ -16,6 +17,7 @@ export default function Cabecalho(){
                             <Link 
                                 href={`https://www.carolinebonacossa.com.br/`}
                                 rel="Nosso site"
+                                className={styles.linksCabecalho}
                             >
                                 Nosso Site
                             </Link>
@@ -27,6 +29,7 @@ export default function Cabecalho(){
                             <Link 
                                 href={`https://www.instagram.com/caroline.bonacossa`}
                                 rel="Nosso site"
+                                className={styles.linksCabecalho}
                             >
                                 Instagram
                             </Link>
@@ -38,6 +41,7 @@ export default function Cabecalho(){
                             <Link 
                                 href={`https://www.facebook.com/DraCarolineBonacossa`}
                                 rel="Nosso site"
+                                className={styles.linksCabecalho}
                             >
                                 Facebook
                             </Link>
@@ -49,6 +53,7 @@ export default function Cabecalho(){
                             <Link 
                                 href={`https://www.tiktok.com/@terror.do.inss`}
                                 rel="Nosso site"
+                                className={styles.linksCabecalho}
                             >
                                 TikTok
                             </Link>

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+}
+
+.cardTextos{
+    background-color: #F4F6FB;
+    max-width: 800px;
+    border: 1px solid #CBDFFF;
+    box-shadow: 1px 1px 10px #CBDFFF;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: justify;
+    margin: auto;
+    animation: aparecer 2s ease;
+}
+
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

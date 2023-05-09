@@ -1,0 +1,18 @@
+.botaoWhats{
+    background-color: #0568FE;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #CBDFFF;
+}
+
+.botaoWhats:hover{
+    background-color: #CBDFFF;
+    color: #0568FE;
+    border: 1px solid #0568FE;
+    box-shadow: 1px 1px 10px #0569fe50;
+    transition: all 500ms ease-in-out;
+}

@@ -1,0 +1,38 @@
+.iconesContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+    max-width: 800px;
+}
+
+.imgCard{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CBDFFF;
+    box-shadow: 1px 1px 10px #CBDFFF;
+    animation:  aparecer 1s ease-in-out;
+}
+
+.imgCard:hover{
+    transform: scale(1.05);
+    transition: all 400ms;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
